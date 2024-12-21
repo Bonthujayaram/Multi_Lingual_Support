@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the top */
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+  padding-top: 20px; /* Add spacing from the top */
+}
+
+h1, p {
+  margin-bottom: 20px;
+  margin-top: 20px; /* Spacing between elements */
+}
+
+.verification-ui {
+  margin-top: 20px; /* Additional spacing after the verification UI */
+}
